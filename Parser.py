@@ -125,7 +125,7 @@ def VerificaFormula(expressao, i, Tipo_do_Operador):
             if VerificaParenteses(expressao[i]) == 'Abrir':
                 if VerificaParenteses(expressao[j]) == 'Abrir':
                     ContadorAberturaParenteses += 1
-                elif VerificaParenteses(expressao[j]) == 'Abrir':
+                elif VerificaParenteses(expressao[j]) == 'Fechar':
                     ContadorFechamentoParenteses += 1
                     if ContadorFechamentoParenteses == ContadorAberturaParenteses:
                         break
