@@ -222,8 +222,8 @@ for arquivo in arquivos:
 
         while contador <= QuantidadePalavras:
             palavra = nomes[contador].strip('\n')
-            resposta = VerificaString(palavra)
-            if resposta:
+            resultado = VerificaString(palavra)
+            if resultado:
                 print("válida")
             else:
                 print("inválida")
