@@ -1,0 +1,6 @@
+5
+(\neg (\wedge a bc))
+(\leftrightarrow a b)
+\leftrightarrow T F
+(\neg (\vee a a))
+(\neg (\vee 0))
